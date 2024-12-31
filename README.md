@@ -1,5 +1,5 @@
 # Crypto Portfolio Tracker
-## I might post a version with a webUI soon :)
+I might post a version with a webUI soon so you don't have to do API requests :)
 ---
 
 A FastAPI-based application that tracks crypto wallet balances across different networks and calculates portfolio value.
