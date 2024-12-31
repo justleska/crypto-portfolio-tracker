@@ -64,7 +64,7 @@ DATABASE_URL=sqlite:///crypto_tracker.db
 
 ### Frontend Setup
 
-R. Download Node.js and NPM if not done already: [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+0. Download Node.js and NPM if not done already: [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 1. Create a new React project using Vite
 ```bash
