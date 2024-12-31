@@ -2,7 +2,7 @@
 
 A full-stack application that tracks crypto wallet balances across different networks and calculates portfolio value, thanks to both a FastAPI backend and a React frontend.
 
-**DISCLAMER:** This is mainly an educational project to train me in the coding space & maybe help others, so this is not intended for a real use. 
+**DISCLAMER:** This is mainly an educational project to train me in the coding space & maybe help others, so this is not intended for a real use.
 **TL;DR:** things might break :P
 
 ## Features
