@@ -35,6 +35,7 @@ CRYPTOCOMPARE_API_KEY=your_cryptocompare_api_key
 ETHERSCAN_API_KEY=your_etherscan_api_key
 DATABASE_URL=sqlite:///crypto_tracker.db
 ```
+(If you're on Windows and don't know how to operate environment variables, just modify them in the config.py file)
 
 5. Run the application
 ```bash
