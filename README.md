@@ -83,7 +83,7 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-4. Run both applications
+### Run Frontend and Backend
 
 Backend:
 ```bash
