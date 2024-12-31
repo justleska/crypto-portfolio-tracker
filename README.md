@@ -64,6 +64,8 @@ DATABASE_URL=sqlite:///crypto_tracker.db
 
 ### Frontend Setup
 
+R. Download Node.js and NPM if not done already: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
 1. Create a new React project using Vite
 ```bash
 npm create vite@latest frontend -- --template react
@@ -100,7 +102,7 @@ The application will be available at:
 - Backend API: http://localhost:8000
 - API Documentation: http://localhost:8000/docs
 
-## API Endpoints
+## Using the API Endpoints
 
 ### Add a new wallet
 ```
