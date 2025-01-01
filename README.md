@@ -1,6 +1,6 @@
 # Crypto Portfolio Tracker
 
-Simpler version that is a lot easier to install and use: https://github.com/JustLeska/simple-crypto-portfolio-tracker
+Simpler version that is a lot easier to install and use (and has a CLI): https://github.com/JustLeska/simple-crypto-portfolio-tracker
 
 ---
 
