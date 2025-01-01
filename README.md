@@ -1,11 +1,13 @@
 # Crypto Portfolio Tracker
 
-A full-stack application that tracks crypto wallet balances across different networks and calculates portfolio value, thanks to both a FastAPI backend ~~and a React frontend~~.
+I will be moving this project to another repo when I finish the other projects around it to make it one big project that I will reveal later on
+
+---
+
+A full-stack application that tracks crypto wallet balances across different networks and calculates portfolio value, thanks to both a FastAPI backend ~~and a React frontend~~ (discontinued here to be perfected in final version).
 
 **DISCLAMER:** This is mainly an educational project to train me in the coding space & maybe help others, so this is not intended for a real use.
 **TL;DR:** things might break :P
-
-btw I will be moving this project to another repo when I finish the other projects around it to make it one big project that I will reveal later on
 
 ## Features
 
