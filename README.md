@@ -81,14 +81,19 @@ npm create vite@latest frontend -- --template react
 cd frontend
 ```
 
-2. Install required dependencies:
+2. Replace the contents of the following files with our crypto tracker code:
+   - `src/App.jsx`
+   - `src/index.css`
+   - Create new file: `src/components/CryptoPortfolio.jsx`
+
+3. Install required dependencies:
 ```bash
 npm install lucide-react
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-3. Start the frontend development server:
+4. Start the frontend development server:
 ```bash
 npm run dev
 ```
