@@ -5,6 +5,8 @@ A full-stack application that tracks crypto wallet balances across different net
 **DISCLAMER:** This is mainly an educational project to train me in the coding space & maybe help others, so this is not intended for a real use.
 **TL;DR:** things might break :P
 
+btw I will be moving this project to another repo when I finish the other projects around it to make it one big project that I will reveal later on
+
 ## Features
 
 - Track multiple wallet addresses across different networks (Ethereum, Binance Smart Chain)
