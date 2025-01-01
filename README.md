@@ -14,7 +14,6 @@ A full-stack application that tracks crypto wallet balances across different net
 - Track multiple wallet addresses across different networks (Ethereum, Binance Smart Chain)
 - Real-time wallet balance updates
 - Calculate total portfolio value in USD
-- Store historical balance data
 - RESTful API backend
 
 ## Prerequisites
