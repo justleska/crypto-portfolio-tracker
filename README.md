@@ -11,13 +11,11 @@ A full-stack application that tracks crypto wallet balances across different net
 - Real-time wallet balance updates
 - Calculate total portfolio value in USD
 - Store historical balance data
-- Modern React frontend interface
 - RESTful API backend
 
 ## Prerequisites
 
 - Python 3.8 or higher
-- Node.js 14 or higher
 - CryptoCompare API key (for price data)
 - Etherscan API key (for Ethereum blockchain data)
 
@@ -31,14 +29,6 @@ crypto-portfolio-tracker/
 │   ├── wallet_service.py
 │   ├── main.py
 │   └── requirements.txt
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── CryptoPortfolio.jsx
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   └── index.html
 └── README.md
 ```
 
@@ -72,35 +62,7 @@ DATABASE_URL=sqlite:///crypto_tracker.db
 ```
 (If you're on Windows and don't know how to operate environment variables, just add the keys and database URL in the config.py file)
 
-### Frontend Setup
-
-1. In a new terminal, set up the frontend:
-```bash
-# Create and setup the frontend
-npm create vite@latest frontend -- --template react
-cd frontend
-```
-
-2. Replace the contents of the following files with our crypto tracker code:
-   - `src/App.jsx`
-   - `src/index.css`
-   - Create new file: `src/components/CryptoPortfolio.jsx`
-
-3. Install required dependencies:
-```bash
-npm install lucide-react
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
-4. Start the frontend development server:
-```bash
-npm run dev
-```
-
-The frontend will be available at http://localhost:5173
-
-### Run Frontend and Backend
+### Run Backend
 
 Backend:
 ```bash
@@ -108,14 +70,8 @@ cd backend
 uvicorn main:app --reload
 ```
 
-Frontend:
-```bash
-cd frontend
-npm run dev
-```
-
 The application will be available at:
-- Frontend: http://localhost:5173
+
 - Backend API: http://localhost:8000
 - API Documentation: http://localhost:8000/docs
 
@@ -140,23 +96,6 @@ GET /wallets/{wallet_id}/balance
 ```
 GET /portfolio
 ```
-
-## Usage
-
-1. Ensure both backend and frontend servers are running
-2. Visit http://localhost:5173 in your browser
-3. Use the "Add New Wallet" form to add wallet addresses:
-   - Enter the wallet address
-   - Select the network (Ethereum or BSC)
-   - Optionally add a label
-4. View your portfolio summary and individual wallet balances
-5. Use the refresh button to update balances
-
-## Common Issues & Solutions
-
-1. **Default Vite Page Shows**: Make sure you've replaced all the default Vite files with our crypto tracker code.
-2. **Backend Connection Error**: Ensure the backend server is running on port 8000 and CORS is properly configured.
-3. **Missing Dependencies**: Run `npm install` in the frontend directory to install all required dependencies.
 
 ## Contributing
 
