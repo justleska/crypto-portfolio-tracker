@@ -67,7 +67,22 @@ DATABASE_URL=sqlite:///crypto_tracker.db
 
 ### Frontend Setup
 
-**Needs rework**
+1. Create a new React project using Vite
+```bash
+npm create vite@latest frontend -- --template react
+cd frontend
+```
+
+2. Install frontend dependencies
+```bash
+npm install @shadcn/ui lucide-react
+```
+
+3. Install and configure Tailwind CSS (required for shadcn/ui)
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
 
 ### Run Frontend and Backend
 
