@@ -1,6 +1,6 @@
 # Crypto Portfolio Tracker
 
-I will be moving this project to another repo when I finish the other projects around it to make it one big project that I will reveal later on
+Simpler version that is a lot easier to install and use: https://github.com/JustLeska/simple-crypto-portfolio-tracker
 
 ---
 
